@@ -5,7 +5,7 @@ function generate() {
     const data = {
         text: scriptInput.value
       };
-    fetch('http://localhost:3500',{
+    fetch('https://movie-scripts-summarizer.onrender.com',{
         method:'POST',
         headers:{
             'Content-Type': 'application/json'
