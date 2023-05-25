@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="header">
+            <h1>Generate Summary and characters of Movie scripts</h1>
+          </div>
+            <div class="content">
+              <textarea  id="movie_scripts" name="movie_scripts" required placeholder="Add movie scripts..."></textarea>
+              <button onclick="generate()">Generate</button>
+          </div>
+        <div class="card">
+            <h2>Summary</h2>
+            <p id="summary"></p>
+          </div>
+          
+          <div class="card">
+            <h2>Characters</h2>
+            <p id="characters"></p>
+          </div>
+          <script type="text/javascript" src="scripts.js"></script>
+      </body>
+</html>
